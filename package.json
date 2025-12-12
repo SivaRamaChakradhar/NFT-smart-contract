@@ -1,0 +1,43 @@
+{
+  "name": "nft-collection",
+  "version": "1.0.0",
+  "description": "ERC-721 NFT Collection with full test suite and Dockerization",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "clean": "npx hardhat clean"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^17.2.3",
+    "ipfs-http-client": "^60.0.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.27.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SivaRamaChakradhar/NFT-smart-contract.git"
+  },
+  "keywords": [
+    "NFT",
+    "ERC721",
+    "Smart Contract",
+    "Hardhat",
+    "OpenZeppelin"
+  ],
+  "author": "Ramisetti Siva Rama Chakradhar",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SivaRamaChakradhar/NFT-smart-contract/issues"
+  },
+  "homepage": "https://github.com/SivaRamaChakradhar/NFT-smart-contract#readme"
+}
